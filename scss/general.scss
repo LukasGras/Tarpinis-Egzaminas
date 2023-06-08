@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,400&display=swap');
+
+//mix
+$button:#007bff;
+$head: #f8f9fa;
+
+
+
+
+//Variables
+
+$bg-hero: url("images/bg-masthead.jpg");
+$main-1: url("images/bg-showcase-1.jpg");
+$main-2: url("images/bg-showcase-2.jpg");
+$main-3: url("images/bg-showcase-3.jpg");
+$profile-1: url("images/testimonials-1.jpg");
+$profile-2: url("images/testimonials-2.jpg");
+$profile-3: url("images/testimonials-3.jpg");
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: black;
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+}

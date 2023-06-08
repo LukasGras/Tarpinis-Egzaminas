@@ -1,0 +1,210 @@
+//Hero 
+
+@media (max-width: 465px) {
+    section.hero {
+        height: 600px;
+
+
+        h1 {
+            padding-top: 100px;
+        }
+
+        .search {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        input {
+            font-size: 1.1em;
+            width: 300px;
+            height: 40px;
+        }
+        .button {
+            text-align: center;
+            height: 40px;
+            width: 300px;
+        }
+        }
+    } 
+}
+@media (max-width: 465px) {
+    section.hero-lower {
+        height: 500px;
+
+
+        h1 {
+            padding-top: 100px;
+        }
+
+        .search {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        input {
+            font-size: 1.1em;
+            width: 300px;
+            height: 40px;
+        }
+        .button {
+            text-align: center;
+            height: 40px;
+            width: 300px;
+        }
+        }
+    } 
+}
+
+
+
+
+//Head 
+
+
+@media (max-width: 465px) {
+    section.head {
+        flex-direction: column;
+        height: auto;
+        padding-top: 50px;
+        
+
+        div {
+            margin-top: 20px;
+        }
+
+    }
+}
+
+
+
+//Main
+
+
+@media (max-width: 750px) {
+    main {
+        .section-1 {
+            .info{
+                h2 {
+                    margin: 0;
+                }
+            }
+        }
+        .section-2 {
+            .info{
+                h2 {
+                    margin: 0;
+                }
+            }
+        }
+        .section-3 {
+            .info{
+                h2 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+
+
+
+@media (max-width: 465px) {
+    main {
+        height: auto;
+        width: 100%;
+
+        .section-1 {
+            height: auto;
+            flex-direction: column-reverse;
+
+
+
+
+            .info {
+                height: 350px;
+                width: 100%;
+                padding: 50px;
+
+
+            }
+
+            .img {
+                height: 350px;
+                width: 100%;
+            }
+
+        }
+        .section-2 {
+            height: auto;
+            flex-direction: column-reverse;
+
+
+
+
+            .info {
+                height: 350px;
+                width: 100%;
+                padding: 50px;
+
+
+            }
+
+            .img {
+                height: 350px;
+                width: 100%;
+            }
+
+        }
+        .section-3 {
+            height: auto;
+            flex-direction: column-reverse;
+
+
+
+
+            .info {
+                height: 350px;
+                width: 100%;
+                padding: 50px;
+
+
+            }
+
+            .img {
+                height: 350px;
+                width: 100%;
+            }
+
+        }
+    }
+}
+
+
+
+
+//Hip
+
+@media (max-width: 480px) {
+    .hip {
+        h2 {
+            font-size: 2em;
+        }
+
+        .profiles{
+            flex-direction: column;
+            font-size: 1.2em;
+
+
+            div {
+                width: auto;
+                margin-top: 30px;
+
+                img {
+                    width: 150px;
+                    border-radius: 100px;
+                    padding-bottom: 10px;
+                }
+            }
+        }
+    }
+}

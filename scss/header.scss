@@ -1,0 +1,32 @@
+header {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: white;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    font-size: 1.2em; 
+
+   .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5px;
+    height: 45px;
+    width: 85px;
+    border: 2px solid $button;
+    border-radius: 4px;
+    background: $button ;
+    transition: 0.3s;
+
+
+    &:hover {
+        color: $button;
+        background: white;
+        box-shadow: 0px 0px 20px 5px $button;
+    }
+   }
+}

@@ -1,0 +1,38 @@
+.hip {
+    height: auto;
+    width: 100%;
+    background: $head;
+    padding-top: 150px;
+    padding-bottom: 100px;
+
+    h2 {
+        text-align: center;
+    }
+    .profiles {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            width: 400px;
+        }
+        
+
+        img {
+            width: 100px;
+            border-radius: 50px;
+        }
+    }
+    
+    
+   
+}
+
+
